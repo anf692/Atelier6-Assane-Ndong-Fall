@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #E65100;
+    --secondary-color: #FFB300;
+    --tertiary-color: #FFF3E0;
+}
+
+/* styles pour le header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    padding: 20px 8%;
+    width: 100%;
+}
+
+.logo img{
+    width: 120px;
+    object-fit: contain;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: var(--primary-color);
+    text-decoration: solid underline;
+}
+
+nav ul li a:active{
+    color: var(--secondary-color);
+}
+
+.btn{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-connexion{
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-inscription{
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* styles pour la bannierre principale */
