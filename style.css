@@ -169,3 +169,61 @@ nav ul li a:active{
     color: #000;
     font-weight: 500;
 }
+
+/* styles pour la section services */
+.service{
+    padding: 60px 20%;
+    margin: 0;
+}
+
+.service h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.service p{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.service-item1, .service-item2{
+    background-color:burlywood;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item2{
+    background-color: var(--tertiary-color);
+}
+
+.service-item1 h3, .service-item2 h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.service-item1 p, .service-item2 p{
+    display:flex;
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 5%;
+}
+
+.service-lien{
+    text-align: start;
+    color: #FFB300;
+    text-decoration: underline;
+}
