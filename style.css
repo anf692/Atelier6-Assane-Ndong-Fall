@@ -138,3 +138,34 @@ nav ul li a:active{
     border-radius: 20px;
 }
 
+/* style pour la section score */
+
+.score{
+    padding: 60px 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--tertiary-color);
+}
+
+.score-item{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
+
+.score-item h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.score-item p{
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+}
