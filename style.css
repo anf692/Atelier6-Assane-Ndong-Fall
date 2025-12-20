@@ -340,3 +340,49 @@ nav ul li a:active{
     font-size: 14px;
     color: var(--primary-color);
 }
+
+/* style pour la section footer */
+.footer{
+    background-color:rgba(1, 1, 40, 0.964);
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.list-items{
+    padding: 20px 90px;
+}
+
+.list-items h3{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-items ul{
+    list-style: none;
+}
+
+.list-items ul li a{
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f2f2f2f2;
+}
+
+.footer hr{
+   margin-left: 90px;
+   margin-right: 90px;
+   opacity: 0.3;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    color: #f2f2f2f2;
+    font-size: 14px;
+}
