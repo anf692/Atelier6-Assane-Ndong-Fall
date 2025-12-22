@@ -1,4 +1,7 @@
 /* style pour le banniere */
+body{
+    background-color: #FEF3C6;
+}
 .banner{
     width: 100%;
     height: 300px;
@@ -15,7 +18,7 @@
     width: 100%;
     height: 100%;
     opacity: 0.3;
-    background-color: #963f10e1;
+    background-color: #963f10;
 }
 
 .banner h1{
@@ -33,6 +36,153 @@
     color: white;
     padding-left: 400px;
     margin-right: 200px;
+}
+
+/* style pour les listes de traiteurs */
+.list-traiteur{
+    width: 100%;
+    height: 620px;
+    background-color: #FEF3C6;
+}
+
+.filtres{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.filtres h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form{
+    display: flex;
+    gap: 20px;
+}
+
+.form-item label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form-item select{
+    padding: 6px 20px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-filter{
+    padding: 6px 15px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-reinitialisation{
+    padding: 6px 15px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.traiteurs{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.traiteurs-item{
+    display: flex;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.traiteurs-item img{
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.traiteurs-infos{
+    width: 65%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.info1{
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.fa-star{
+    color: #F8CC14;
+}
+
+.info2{
+    padding-top: 8px;
+}
+
+.info2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #101827;
+}
+
+.info2 ul{
+    display: flex;
+    gap: 20px 8px;
+    list-style: none;
+}
+
+.info2 ul li{
+    padding: 2px 7px;
+    background-color: #d2d1d1;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.infos3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.infos3 p{
+    margin-top: 5px;
+}
+
+.infos3 button{
+    padding: 8px 10px;
+    background-color: #101827;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
 }
 
 
