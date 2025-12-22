@@ -45,7 +45,6 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    font-weight: 500;
     position: relative;
 }
 
@@ -81,6 +80,7 @@ nav ul li a:hover::after{
 }
 
 .btn-connexion{
+    font-size: 18px;
     padding: 10px 15px;
     background-color: transparent;
     border-radius: 8px;
@@ -100,6 +100,8 @@ nav ul li a:hover::after{
 }
 
 .btn-inscription{
+    font-size: 18px;
+    font-weight: 500;
     padding: 10px 15px;
     background-color: var(--primary-color);
     border-radius: 8px;
@@ -357,7 +359,6 @@ iframe:hover{
 
 .temoignage-item p{
     font-size: 14px;
-    font-weight: bold;
     color: #999;
     margin-bottom: 20px;
 }
@@ -368,12 +369,47 @@ iframe:hover{
     margin-bottom: 10px;
 }
 
-.client-info img{
+.name{
+    border: 2px solid var(--primary-color);
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.name p{
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+}
+
+.name-fd{
+    background-color: #999;
+}
+
+.name-md{
+    background-color: orangered;
+}
+
+.name-ab{
+    background-color: #FFB300;
+}
+
+.name-ab p{
+    color: white;
+}
+
+
+.name-os{
+    background-color:green;
+}
+
+/* .client-info img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-}
+} */
 
 .client-text{
     margin-left: 15px;
@@ -381,7 +417,6 @@ iframe:hover{
 
 .client-text h3{
     font-size: 16px;
-    font-weight: bold;
 }
 
 .fa-star{
