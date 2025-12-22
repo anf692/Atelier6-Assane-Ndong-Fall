@@ -487,6 +487,10 @@ iframe:hover{
     color: var(--primary-color);
 }
 
+.fa-brands{
+    color: white;
+}
+
 .footer hr{
    margin-left: 90px;
    margin-right: 90px;
