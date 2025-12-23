@@ -1,4 +1,8 @@
 /* style pour le banniere */
+
+body{
+    background-color: #FEF3C6;
+}
 .banner{
     width: 100%;
     height: 300px;
@@ -32,4 +36,173 @@
     font-size: 16px;
     color: white;
     padding-left: 200px;
+}
+
+/* syles pour les formulaires */
+
+.formulaire{
+    position: relative;
+    height: 1150px;
+    background-color: #fff;
+    margin: 25px 80px;
+    border-radius: 10px;
+}
+
+.infos-base{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    right: 280px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-base-input-1{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.infos-base1 label{
+    font-size: 14px;
+}
+
+.infos-base1 input{
+    padding: 5px 25px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #999;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-perso{
+    position: absolute;
+    top: 25%;
+    left: 300px;
+    right: 280px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-perso h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.infos-perso p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.infos-perso1, .infos-perso2{
+    padding: 10px;
+}
+
+.infos-perso1 label{
+    font-size: 14px;
+}
+
+.infos-perso1 select, .infos-perso1 input{
+    width: 100%;
+    padding: 5px 25px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-perso1 textarea{
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-perso2{
+    display: flex;
+    gap: 150px;
+}
+
+.infos-contacts{
+    position: absolute;
+    top: 70%;
+    left: 300px;
+    right: 280px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infos-contacts h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.infos-input-contact{
+    display: flex;
+    gap: 20px;
+}
+
+
+.infos-contact input{
+   padding: 5px 25px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #999;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo{
+    position: absolute;
+    top: 82%;
+    left: 300px;
+    right: 280px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.photo p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* 
+.images input{
+    padding: 10px 0;
+    background-color: aquamarine;
+} */
+
+.btn{
+    position: absolute;
+    top: 95%;
+    right: 280px;
+   
+}
+
+.btn button{
+    background-color:#963f10;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
 }

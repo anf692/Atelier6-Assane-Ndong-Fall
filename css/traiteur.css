@@ -223,10 +223,11 @@ body{
 .action-item p{
     color: white;
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
-.action-item button{
+.action-item a{
+    text-decoration: none;
     padding: 15px 20px;
     border: 0;
     border-radius: 10px;
@@ -236,7 +237,7 @@ body{
     transition: 0.5s;
 }
 
-.action-item button:hover{
+.action-item a:hover{
     transform: rotate(5deg);
     background-color: var(--primary-color);
     color: white;
