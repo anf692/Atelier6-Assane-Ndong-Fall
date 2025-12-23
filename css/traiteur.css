@@ -125,6 +125,7 @@ body{
 
 
 .traiteurs-item{
+    position: relative;
     display: flex;
     height: 200px;
     background-color: #fff;
@@ -138,8 +139,22 @@ body{
     transform: scale(1);
 }
 
+.traiteurs-item .images{
+    position: relative;
+}
 
-.traiteurs-item img{
+.traiteurs-item .images p{
+    position: absolute;
+    top: 5px;
+    left: 285px;
+    padding: 2px 8px;
+    border-radius:15px;
+    color: rgba(0, 128, 0, 0.622);
+    font-weight: 500;
+    background-color: rgb(176, 251, 176);
+}
+
+.traiteurs-item .images img{
     width: 35%;
     height: 100%;
     object-fit: cover;
@@ -147,6 +162,8 @@ body{
 
 
 .traiteurs-infos{
+    position: absolute;
+    left: 379px;
     width: 65%;
     padding: 15px;
     display: flex;
