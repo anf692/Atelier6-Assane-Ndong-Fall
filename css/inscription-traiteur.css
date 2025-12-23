@@ -192,11 +192,25 @@ body{
     font-weight: 300;
 }
 
-/* 
 .images input{
-    padding: 10px 0;
-    background-color: aquamarine;
-} */
+    display: none;
+}
+
+
+.images .choix{
+    padding: 5px 10px;
+    background-color: #e651002f;
+    border-radius: 5px;
+    color: #E65100;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.images span{
+    font-weight: 400;
+    font-size: 12px;
+}
 
 
 /* style pour le boutton */
