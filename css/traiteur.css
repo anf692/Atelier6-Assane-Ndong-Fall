@@ -45,6 +45,7 @@ body{
     background-color: #FEF3C6;
 }
 
+/* style pour les filtre */
 .filtres{
     display: flex;
     justify-content: space-between;
@@ -113,6 +114,7 @@ body{
     margin-left: 4px;
 }
 
+/* style pour les cards */
 .traiteurs{
     width: 80%;
     margin-left: 10%;

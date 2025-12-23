@@ -3,6 +3,8 @@
 body{
     background-color: #FEF3C6;
 }
+
+
 .banner{
     width: 100%;
     height: 300px;
@@ -38,6 +40,7 @@ body{
     padding-left: 200px;
 }
 
+
 /* syles pour les formulaires */
 
 .formulaire{
@@ -48,6 +51,7 @@ body{
     border-radius: 10px;
 }
 
+/* style pour la partie information de base */
 .infos-base{
     position: absolute;
     top: 50px;
@@ -78,6 +82,7 @@ body{
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* style pour la partie information personnelle*/
 .infos-perso{
     position: absolute;
     top: 25%;
@@ -131,6 +136,7 @@ body{
     gap: 150px;
 }
 
+/* style pour la partie information de contact */
 .infos-contacts{
     position: absolute;
     top: 70%;
@@ -163,6 +169,7 @@ body{
     box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* style pour la partie photo */
 .photo{
     position: absolute;
     top: 82%;
@@ -191,14 +198,16 @@ body{
     background-color: aquamarine;
 } */
 
-.btn{
+
+/* style pour le boutton */
+.btn-login{
     position: absolute;
     top: 95%;
     right: 280px;
    
 }
 
-.btn button{
+.btn-login button{
     background-color:#E65100;
     padding: 5px 15px;
     border: none;
@@ -209,7 +218,7 @@ body{
     transition: 0.5s;
 }
 
-.btn button:hover{
+.btn-login button:hover{
     transform: scale(1.1);
     background-color: white;
     border: 1px solid #E65100;

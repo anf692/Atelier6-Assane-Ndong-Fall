@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,29 +42,30 @@
 
         </section>
 
+        <!-- section pour le formulaire -->
         <section class="formulaire">
-            <form action="">
+            <form action="#">
 
                 <div class="infos-base">
                     <h3>Information de base</h3>
                     <div class="infos-base-input-1">
                         <div class="infos-base1">
-                            <label for="">Nom complet</label><br>
-                            <input type="text"><br>
+                            <label for="nom">Nom complet</label><br>
+                            <input type="text" id="nom"><br>
                         </div>
                         <div class="infos-base1">
-                            <label for="">Email</label><br>
-                            <input type="text">
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email">
                         </div>
                     </div>
                     <div class="infos-base-input-1">
                         <div class="infos-base1">
-                            <label for="">Mot de passe</label><br>
-                            <input type="text"><br>
+                            <label for="pwd">Mot de passe</label><br>
+                            <input type="password" id="pwd"><br>
                         </div>
                         <div class="infos-base1">
-                            <label for="">Confirmer le mot de passe</label><br>
-                            <input type="text">
+                            <label for="confirm-pwd">Confirmer le mot de passe</label><br>
+                            <input type="password" id="confirm-pwd">
                         </div>
                     </div>
                         
@@ -73,20 +74,20 @@
                 <div class="infos-perso">
                     <h3>Information profesionnelles</h3>
                     <div class="infos-perso1">
-                        <label for="">Categorie</label><br>
-                        <select name="" id="">
-                            <option value="">seclectionnez une categorie</option>
+                        <label for="categorie">Categorie</label><br>
+                        <select  id="categorie">
+                            <option value="traiteur">seclectionnez une categorie</option>
                         </select><br>
                     </div>
 
                     <div class="infos-perso1">
-                        <label for="">Annee d'experience</label><br>
-                        <input type="number"><br>
+                        <label for="annee">Annee d'experience</label><br>
+                        <input type="number" id="annee"><br>
                     </div>
 
                     <div class="infos-perso1">
-                        <label for="">Description</label><br>
-                        <textarea name="" id=""></textarea><br>
+                        <label for="desc">Description</label><br>
+                        <textarea id="desc"></textarea><br>
                     </div>
 
 
@@ -94,29 +95,29 @@
                     <div class="infos-perso2">
                         <div class="section">
                             
-                            <input type="checkbox">
-                            <label for="">Mariage</label><br>
+                            <input type="checkbox" id="mariage">
+                            <label for="mariage">Mariage</label><br>
 
-                            <input type="checkbox">
-                            <label for="">Evenements d'entreprise</label><br>
+                            <input type="checkbox" id="evenments">
+                            <label for="evenments">Evenements d'entreprise</label><br>
 
-                            <input type="checkbox">
-                            <label for="">Buffet</label><br>
+                            <input type="checkbox" id="buffet">
+                            <label for="buffet">Buffet</label><br>
 
-                            <input type="checkbox">
-                            <label for="">Cuisine sur mesure</label>
+                            <input type="checkbox" id="cuisine">
+                            <label for="cuisine">Cuisine sur mesure</label>
                         </div>
 
                         <div class="section">
                             
-                            <input type="checkbox">
-                            <label for="">Anniversaire</label><br>
+                            <input type="checkbox" id="annif">
+                            <label for="annif">Anniversaire</label><br>
 
-                            <input type="checkbox">
-                                <label for="">Cocktails</label><br>
+                            <input type="checkbox" id="cocktail">
+                                <label for="cocktail">Cocktails</label><br>
 
-                            <input type="checkbox">
-                            <label for="">Diner prives</label>
+                            <input type="checkbox" id="diner">
+                            <label for="diner">Diner prives</label>
                         </div>
                     </div>
                 </div>
@@ -125,12 +126,12 @@
                     <h3>Information de contact</h3>
                     <div class="infos-input-contact">
                         <div class="infos-contact">
-                            <label for="">Telephone</label><br>
-                            <input type="number">
+                            <label for="phone">Telephone</label><br>
+                            <input type="number" id="phone">
                         </div>
                         <div class="infos-contact">
-                            <label for="">Adresse</label><br>
-                            <input type="text">
+                            <label for="addresse">Adresse</label><br>
+                            <input type="text" id="addresse">
                         </div>
                     </div>
                 </div>
@@ -138,13 +139,13 @@
                 <div class="photo">
                     <h3>Photo de profil</h3>
                     <div class="images">
-                        <label for="">Photo</label><br>
-                        <input type="file">
+                        <label for="image">Photo</label><br>
+                        <input type="file" id="image">
                         <p>Formats acceptes: JPG, JPEG, PNG, Taille maximale: 10MB</p>
                     </div>
                 </div>
 
-                <div class="btn">
+                <div class="btn-login">
                     <button>S'inscrire</button>
                 </div>
                 
@@ -205,5 +206,6 @@
         <p>&copy;2025 Start Buffet. Tous droit reserves.</p>
 
     </footer>
+
 </body>
 </html>
