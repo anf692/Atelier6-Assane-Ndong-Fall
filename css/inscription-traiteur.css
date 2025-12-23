@@ -199,10 +199,19 @@ body{
 }
 
 .btn button{
-    background-color:#963f10;
+    background-color:#E65100;
     padding: 5px 15px;
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border: 1px solid #E65100;
+    color: #E65100;
 }

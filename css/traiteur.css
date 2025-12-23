@@ -54,6 +54,8 @@ body{
     margin-bottom: 50px;
 }
 
+
+
 .filtres h4{
     font-size: 24px;
     font-weight: 600;
@@ -84,6 +86,14 @@ body{
     border: 1px solid #fff;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-filter:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border: 1px solid orangered;
+    color: orangered;
 }
 
 .btn-reinitialisation{
@@ -92,6 +102,15 @@ body{
     border: 1px solid #999;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-reinitialisation:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: orangered;
+    border: 1px solid #fff;
+    margin-left: 4px;
 }
 
 .traiteurs{
@@ -110,6 +129,11 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: 0.2s;
+}
+
+.traiteurs-item:hover{
+    transform: scale(1);
 }
 
 
@@ -183,6 +207,13 @@ body{
     border-radius: 8px;
     color: white;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.infos3 button:hover{
+    transform: rotate(5deg);
+    background-color: #E65100;
+    color: white;
 }
 
 
