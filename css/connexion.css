@@ -1,0 +1,62 @@
+:root{
+    --primary-color: #E65100;
+}
+
+body{
+    background-color: #f3eded;
+}
+
+.connexion{
+    background-color:white;
+    margin: 15%;
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+    margin-left: 430px;
+    border-radius: 10px;
+}
+
+.connexion h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.connexion .form-item input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #999;
+    margin-bottom: 15px;
+}
+
+.connexion  .form-item2 label{
+    margin-right: 110px;
+}
+
+.connexion  .form-item2 a{
+   text-decoration: none;
+   color: var(--primary-color);
+}
+
+.connexion a{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
+.connexion button{
+    width: 100%;
+    padding: 10px;
+    background-color: #E65100;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.connexion button a{
+    text-decoration: none;
+    color: white;
+}

@@ -84,19 +84,26 @@ nav ul li a:hover::after{
     padding: 10px 15px;
     background-color: transparent;
     border-radius: 8px;
-    color: #000;
     border: 0;
     cursor: pointer;
     transition: 0.5s;
     
 }
 
+.btn-connexion a{
+    text-decoration: none;
+    color: #000;
+}
+
 .btn-connexion:hover{
     transform: rotate(-5deg);
     background-color: white;
     border: 2px solid var(--primary-color);
-    color: var(--primary-color);
     font-weight: bold;
+}
+
+.btn-connexion a:hover{
+     color: var(--primary-color);
 }
 
 .btn-inscription{
