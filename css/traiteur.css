@@ -219,7 +219,8 @@ body{
     margin-top: 5px;
 }
 
-.infos3 button{
+.infos3 a{
+    text-decoration: none;
     padding: 8px 10px;
     background-color: #101827;
     border: 0;
@@ -229,7 +230,7 @@ body{
     transition: 0.5s;
 }
 
-.infos3 button:hover{
+.infos3 a:hover{
     transform: rotate(5deg);
     background-color: #E65100;
     color: white;
