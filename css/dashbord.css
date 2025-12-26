@@ -1,0 +1,210 @@
+:root{
+    --primary-color: #924010;
+    --secondary-color: #DDB568;
+    --tertiary-color: #D77707;
+}
+
+body{
+    background-color: #faf8f8
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 900px;
+    gap: 90px;
+    height: 100%;
+}
+
+
+/* style pour le sidebar */
+.sidebar{
+    background-color: var(--primary-color);
+    height: 890px;
+}
+
+.sidebar-nav{
+    margin-bottom: 400px;
+    margin-top: 8px;
+}
+
+.sidebar-nav img{
+    height: 80px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+.fa-solid, .fa-regular{
+    color: var(--secondary-color);
+    margin: 8px;
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-btn .btn{
+    display: flex;
+    margin-right: 0;
+}
+
+.sidebar-btn a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-top: 8px;
+}
+
+.sidebar-btn hr{
+    color: var(--secondary-color);
+    opacity: 0.3;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* style pour le corps de la page */
+
+.main-content-item1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+
+}
+
+.main-content-item-B{
+    margin-top: 25px;
+}
+
+.main-content-item-B a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--tertiary-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.main-content-item2{
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+}
+
+.main-content-item2-A  select{
+    width: 780px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+.main-content-item2-b{
+    margin-top: 37px;
+    padding: 5px 15px; 
+    border-radius: 8px;
+    background-color: var(--tertiary-color);
+}
+
+.main-content-item2-b a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* style pour le tableau */
+
+.table-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #fafafa;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+    font-size: 13px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 16px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.name img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.status {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.waiting {
+    background: #fff4cc;
+    color: #b58b00;
+}
+
+.verify{
+    background: rgba(102, 232, 102, 0.535);
+    color: green;
+}
+
+.actions a {
+    margin-right: 12px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.actions .edit {
+    color: #2563eb;
+}
+
+.actions .delete {
+    color: #dc2626;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}

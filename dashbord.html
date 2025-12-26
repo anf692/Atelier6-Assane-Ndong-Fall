@@ -5,89 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashbord</title>
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/dashbord.css">
+    <script src="https://kit.fontawesome.com/ffece73c02.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-
-    <header>
-        <div class="logo">
-            <img src="./images/logo.png" alt="">
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="#home">Acceuil</a></li>
-                <li><a href="#score">Restaurants</a></li>
-                <li><a href="#">Cours de cuisine</a></li>
-                <li><a href="traiteurs.html">Traiteurs</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div class="btn">
-            <button class="btn-connexion">Connexion</button>
-            <button class="btn-inscription">Inscription</button>
-        </div>
-
-    </header>
-    
 
     <main>
-
-    </main>
-
-    <footer>
-        <section class="footer">
-
-            <div class="list">
-                <div class="list-items">
-                    <h3>A propos</h3>
+        <div class="sidebar">
+            <div class="sidebar-nav">
+                <img src="./images/logo.png" alt="">
+                <nav>
                     <ul>
-                        <li><a href="">Qui sommes-nous</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Mentions legales</a></li>
-                        <li><a href="">Politique de confidentialite</a></li>
+                        <li><a href="#"><i class="fa-solid fa-house"></i>Tableau de bord</a></li>
+                        <li><a href="#"><i class="fa-solid fa-book-open"></i>Cours de cuissine</a></li>
+                        <li><a href="#"><i class="fa-solid fa-tag"></i>Categories</a></li>
+                        <li><a href="#"><i class="fa-solid fa-city"></i>Restaurants</a></li>
+                        <li><a href="#"><i class="fa-solid fa-city"></i>Traiteurs</a></li>
+                        <li><a href="#"><i class="fa-regular fa-star"></i>Avis</a></li>
                     </ul>
+                </nav>
+            </div>
+
+            <div class="sidebar-btn">
+                <hr>
+                <div class="btn">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    <a href="index.html">Retours a l'Acceuil</a>
                 </div>
-
-                <div class="list-items">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="">Traiteur</a></li>
-                        <li><a href="">Restaurants</a></li>
-                        <li><a href="">Cours de cuisine</a></li>
-                    </ul>
+                <hr>
+                <div class="btn">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    <a href="#">Deconnexion</a>
                 </div>
+                
+            </div>
+        </div>
 
-                <div class="list-items">
-                    <h3>Espace Pro</h3>
-                    <ul>
-                        <li><a href="">Devenir partenaire</a></li>
-                        <li><a href="">Connexion</a></li>
-                        <li><a href="">FAQ Professionnels</a></li>
-                    </ul>
+        <div class="main-content">
+            <div class="main-content-item1">
+                <div class="main-content-item-A">
+                    <h1>Restaurants</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-
-                <div class="list-items">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="">Star Buffet</a></li>
-                        <li><a href="">Dakar, Senegal</a></li>
-                        <li><a href="">Tel: +221 77 000 00 00</a></li>
-                        <li><a href="">Email: contact@gmail.com</a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
+                <div class="main-content-item-B">
+                    <a href="#">Ajouter un restaurants</a>
                 </div>
             </div>
 
-            <hr>
+            <div class="main-content-item2">
+                <div class="main-content-item2-A">
+                    <label for="choix">Zones</label><br>
+                    <select name="choix" id="choix">
+                        <option value="#">Toutes les zones</option>
+                        <option value="#">Rufisque</option>
+                        <option value="#">Almadie</option>
+                    </select>
+                </div>
+                <div class="main-content-item2-b">
+                    <a href="#">Filtrer</a>
+                </div>
+            </div>
 
-        </section>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>NOM</th>
+                            <th>EMAIL</th>
+                            <th>ZONE</th>
+                            <th>STATUT</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
 
-        <p>&copy;2025 Start Buffet. Tous droit reserves.</p>
+                    <tbody>
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Le Djoloff
+                            </td>
+                            <td>contact@ledjoloff.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
 
-    </footer>
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Chez Loutcha
+                            </td>
+                            <td>contact@chezloutcha.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Le thiossane
+                            </td>
+                            <td>contact@lethiossane.sn</td>
+                            <td>Medina</td>
+                            <td>
+                                <span class="status verify">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Shushi Dakar
+                            </td>
+                            <td>contact@shushidakar.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status verify">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Amanda
+                            </td>
+                            <td>contact@amanda.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Mara Knight
+                            </td>
+                            <td>contact@maraknight.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Jean salinas
+                            </td>
+                            <td>contact@jeansalinas.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">
+                                <img src="./images/assane.png" alt="">
+                                Serena
+                            </td>
+                            <td>contact@serena.sn</td>
+                            <td>Plateau</td>
+                            <td>
+                                <span class="status waiting">En attente</span>
+                            </td>
+                            <td class="actions">
+                                <a href="#" class="edit">Modifier</a>
+                                <a href="#" class="delete">Supprimer</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </main>
+
 
 </body>
 </html>
