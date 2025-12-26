@@ -46,8 +46,14 @@ nav ul{
 
 nav ul li{
     margin: 15px;
-    margin-bottom: 10px;
 }
+
+nav ul li:hover{
+    background-color:#642601;
+    border-radius: 10px;
+    padding: 3px;
+}
+
 
 nav ul li a{
     text-decoration: none;
@@ -57,6 +63,12 @@ nav ul li a{
 .sidebar-btn .btn{
     display: flex;
     margin-right: 0;
+}
+
+.sidebar-btn .btn:hover{
+    background-color:#642601;
+    border-radius: 10px;
+    padding: 3px;
 }
 
 .sidebar-btn a{
@@ -92,6 +104,13 @@ nav ul li a{
     background-color: var(--tertiary-color);
     padding: 10px 15px;
     border-radius: 8px;
+    transition: 0.5s;
+}
+
+.main-content-item-B a:hover{
+    background-color: white;
+    color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
 }
 
 .main-content-item2{
