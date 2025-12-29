@@ -47,17 +47,15 @@ body{
     margin-top: 20px;
 }
 
-.connexion .btn a{
-    text-decoration: none;
-    width: 100%;
-    padding: 10px;
-    background-color: #E65100;
-    border: none;
-    border-radius: 10px;
-    margin-top: 15px;
-}
 
-.connexion .btn a{
-    text-decoration: none;
+.btn-form a{
+    display: block;        
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
     color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
 }

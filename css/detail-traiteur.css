@@ -112,16 +112,23 @@ header{
     border-radius: 8px;
 }
 
-/* .infos-left3 .service-content{
-    display: flex;
-    justify-content: space-between;
-} */
+
+
+.infos-left3 .content{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    
+}
 
 .infos-left3 span{
-    margin-right: 30%;
+    position: relative;
+    left: -50px;
+    display: grid;
+    grid-template-columns: repeat(2, 18px);
     font-size: 14px;
     margin-top: 10px;
     border-radius: 10px;
+    text-align: end;
 }
 
 .service-item .fa-check{
@@ -187,6 +194,7 @@ header{
     list-style: none;
     display: flex;
     gap: 15px;
+    display: flex;
 }
 
 .infos-right3 ul li{

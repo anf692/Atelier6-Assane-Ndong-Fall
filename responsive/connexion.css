@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+
+    .connexion{
+        width: 92%;
+        margin: 20px auto;
+        padding: 15px;
+        height: auto;
+    }
+
+    .btn-form a{
+        width: 100%;
+        padding: 12px;
+    }
+
+    .connexion .form-item2 label{
+        margin-right:60px;
+        font-size: 12px;
+    }
+
+    .connexion a{
+        font-size: 12px;
+    }
+}
+
