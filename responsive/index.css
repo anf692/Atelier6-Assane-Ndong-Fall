@@ -1,0 +1,270 @@
+.burger-checkbox {
+    display: none;
+}
+
+.burger-icon {
+    display: none;
+}
+
+/* Styles de base du bouton burger (sera activé uniquement en mobile) */
+.burger-icon {
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+    padding: 5px;
+}
+
+.burger-icon span {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+/* Animation du burger quand il est ouvert */
+.burger-checkbox:checked ~ .burger-icon span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.burger-checkbox:checked ~ .burger-icon span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-checkbox:checked ~ .burger-icon span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    /* Header - Mobile */
+    header {
+        margin-bottom: 3%;
+    }
+
+    .navbar ul{
+        margin: 15px;
+        padding: 15px 20px;
+        border-radius: 15px;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .navbar ul li, .btn{
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+
+    /* Afficher le bouton burger à droite */
+    .burger-checkbox {
+        display: none; /* Caché mais fonctionnel */
+    }
+
+    .burger-icon {
+        display: flex !important;
+        order: 2;
+    }
+
+
+    .banner{
+        height: auto;
+        min-height: auto;
+        padding: 20px 15px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-left{
+        position: relative;
+        left: auto;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-left h1{
+        font-size: 36px;
+        line-height: 1.3;
+        margin-top: 90px;
+        margin-bottom: 15px;
+        text-align: start;
+    }
+
+    .banner-left span{
+        font-size: 36px;
+        text-align: start;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .banner-left p{
+        text-align: justify;
+        font-size: 13px;
+        margin: 15px 0;
+        line-height: 1.6;
+    }
+
+    .banner-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner-right img{
+        position: relative;
+        left: auto;
+        top: auto;
+        right: auto;
+        width: 100%;
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: block;
+        padding: 0;
+    }
+
+    /* Section Scores - Mobile */
+
+    .score{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 20px 15px;
+        margin-bottom: 5%;
+    }
+
+    .score-item {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .score-item h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .score-item p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+
+    /* Section Services - Mobile */
+    .service{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 15px;
+        margin-bottom: 5%;
+    }
+    .service-item{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    
+     /* Section map - Mobile */
+     .map h2{
+        font-size: 24px;
+        text-align: center;
+        padding: 40px;
+        margin-bottom: 60px;
+     }
+    iframe{
+        position: relative;
+        top: auto;
+        left: 50px;
+        bottom: 20%;
+        width: 80%;
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: block;
+        padding: 0;
+    }
+
+     /* Section temoignage - Mobile */
+
+    .temoignage{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 15px;
+        margin-bottom: 5%;
+    }
+
+    .box-temoignage{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .temoignage .titre{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 80px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    /* Section call to action - Mobile */
+    .action-item h2{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .action-item p{
+        color: white;
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .action-item button:hover{
+        font-size: 12px;
+        transform: rotate(2deg);
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: bold;
+        border: 1px solid white;
+    }
+
+    /* Section footer - Mobile */
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -60px;
+    }
+
+    .footer hr{
+        margin-left: 20px;
+        margin-right: 20px;
+        opacity: 0.3;
+    }
+}
+
+

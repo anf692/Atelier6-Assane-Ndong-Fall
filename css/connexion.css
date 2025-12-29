@@ -47,7 +47,8 @@ body{
     margin-top: 20px;
 }
 
-.connexion button{
+.connexion .btn a{
+    text-decoration: none;
     width: 100%;
     padding: 10px;
     background-color: #E65100;
@@ -56,7 +57,7 @@ body{
     margin-top: 15px;
 }
 
-.connexion button a{
+.connexion .btn a{
     text-decoration: none;
     color: white;
 }

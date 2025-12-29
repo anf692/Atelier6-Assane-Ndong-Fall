@@ -26,7 +26,9 @@
         </nav>
 
         <div class="btn">
-            <button class="btn-connexion"><a href="connexion.html">Connexion</a></button>
+            <div class="btn-connexion">
+                <a href="connexion.html">Connexion</a>
+            </div>
             <button class="btn-inscription">Inscription</button>
         </div>
 
@@ -38,24 +40,26 @@
             <h1>Connexion</h1>
             <form action="#">
                 <div class="form-item">
-                    <label for="">Email</label><br>
-                    <input type="email">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email">
                 </div>
 
                 <div class="form-item">
-                    <label for="">Mot de passe</label><br>
-                    <input type="password">
+                    <label for="pwd">Mot de passe</label><br>
+                    <input type="password" id="pwd">
                 </div>
 
                 <div class="form-item2">
-                    <input type="checkbox">
-                    <label for="">Se souvenir de moi</label>
+                    <input type="checkbox" id="souvenir">
+                    <label for="souvenir">Se souvenir de moi</label>
                     <a href="#">Mot de passe oublié?</a>  
                 </div>
                 <br>
                 <a href="#">Pas encore de compte? incrivez-vous</a><br>
-
-                <button><a href="#">Se connecter</a></button>
+                <div class="btn">
+                    <a href="#">Se connecter</a>
+                </div>
+                
             </form>
         </div>
 
@@ -100,11 +104,11 @@
                         <li><a href="">Dakar, Senegal</a></li>
                         <li><a href="">Tel: +221 77 000 00 00</a></li>
                         <li><a href="">Email: contact@gmail.com</a></li>
-                        <div class="icone">
-                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </div>
                     </ul>
+                    <div class="icone">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
 

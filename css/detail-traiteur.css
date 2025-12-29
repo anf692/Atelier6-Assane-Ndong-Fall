@@ -112,13 +112,13 @@ header{
     border-radius: 8px;
 }
 
-.infos-left3 ul{
-    list-style: none;
+/* .infos-left3 .service-content{
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.infos-left3 ul li{
+.infos-left3 span{
+    margin-right: 30%;
     font-size: 14px;
     margin-top: 10px;
     border-radius: 10px;
