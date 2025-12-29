@@ -172,6 +172,10 @@ footer p{
     color: var(--primary-color);
 }
 
+.icone{
+    display: flex;
+}
+
 .fa-brands{
     color: white;
 }
