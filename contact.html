@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Mobile First</title>
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./responsive/contact.css">
     <script src="https://kit.fontawesome.com/ffece73c02.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -32,62 +33,69 @@
 
     </header>
 
-    <section class="contact">
-        <h1>Contactez-nous?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis temporibus </p>
+    <main>
+        <section class="contact">
+            <h1>Contactez-nous?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis temporibus </p>
 
-        <div class="formulaire">
-            <div class="form-item">
-                <label for="">Prenom</label><br>
-                <input type="text">
+            <div class="formulaire">
+                <div class="infos-name">
+
+                    <div class="form-item">
+                        <label for="">Prenom</label><br>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="">Nom</label><br>
+                        <input type="text">
+                    </div>
+                    
+                </div>
+                <div class="form-item">
+                    <label for="">Email</label><br>
+                    <input type="email">
+                </div>
+
+                <div class="form-item">
+                    <label for="">Numero de telephone</label><br>
+                    <input type="number">
+                </div>
+
+                <div class="form-item">
+                    <label for="">Message</label><br>
+                    <textarea name="" id=""></textarea>
+                </div>
+
+                <div class="form-btn">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="">Envoyer</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="card-infos">
+            <div class="infos-item">
+                <i class="fa-solid fa-phone"></i>
+                <h2>telephone</h2>
+                <P>+221 XXX XX XX</P>
             </div>
 
-            <div class="form-item">
-                <label for="">Nom</label><br>
-                <input type="text">
+            <div class="infos-item">
+                <i class="fa-solid fa-envelope"></i>
+                <h2>Email</h2>
+                <P>contact@startbuffet.com</P>
             </div>
 
-            <div class="form-item">
-                <label for="">Email</label><br>
-                <input type="email">
-            </div>
-
-            <div class="form-item">
-                <label for="">Numero de telephone</label><br>
-                <input type="number">
-            </div>
-
-            <div class="form-item">
-                <label for="">Message</label><br>
-                <textarea name="" id=""></textarea>
-            </div>
-
-            <div class="form-btn">
-                <a href="">Envoyer</a>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="card-infos">
-        <div class="infos-item">
-            <i class="fa-solid fa-phone"></i>
-            <h2>telephone</h2>
-            <P>+221 XXX XX XX</P>
-        </div>
-
-        <div class="infos-item">
-            <i class="fa-solid fa-envelope"></i>
-            <h2>Email</h2>
-            <P>contact@startbuffet.com</P>
-        </div>
-
-        <div class="infos-item">
-            <i class="fa-solid fa-location-dot"></i>
-            <h2>Adresse</h2>
-            <P>Dakar, Senegal</P>
-        </div>  
-    </section>
+            <div class="infos-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <h2>Adresse</h2>
+                <P>Dakar, Senegal</P>
+            </div>  
+        </section>
+    </main>
+    
 
     <footer>
         <section class="footer">
